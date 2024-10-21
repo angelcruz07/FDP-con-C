@@ -26,7 +26,6 @@ void SetColor(int color)
          wColor = (csbi.wAttributes & 0xF0) + (color & 0x0F);
          SetConsoleTextAttribute(hStdOut, wColor);
       }
-      return;
 }
     
 
