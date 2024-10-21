@@ -15,3 +15,6 @@ obj/
 # Otros archivos que se suelen ignorar
 *.log
 *.tmp
+
+cmake-build-debug/
+.idea
