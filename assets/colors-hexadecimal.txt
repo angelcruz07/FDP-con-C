@@ -1,4 +1,4 @@
-ASCII
+Lista de colores representados en hexadecimal mediante el código ASCII
 
 0 = Black
 
