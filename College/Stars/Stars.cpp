@@ -14,12 +14,12 @@ int count = 0;
 int color = 0, col=0, ren=0;
 
 
-void gotoxy(int posx, int posy)
+void gotoxy(int posX, int posy)
 {
     HANDLE hConsoleOutput;
     COORD coord;
     hConsoleOutput = GetStdHandle (STD_OUTPUT_HANDLE);
-    coord.X = posx;
+    coord.X = posX;
     coord.Y = posy;
     SetConsoleCursorPosition (hConsoleOutput, coord);
 }
