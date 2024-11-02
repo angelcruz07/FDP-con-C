@@ -13,7 +13,6 @@ int numberStars = 0;
 int count = 0;
 int color = 0, col = 0, ren = 0;
 
-<<<<<<< HEAD
 
 void gotoxy(int posX, int posy)
 {
@@ -23,15 +22,6 @@ void gotoxy(int posX, int posy)
     coord.X = posX;
     coord.Y = posy;
     SetConsoleCursorPosition (hConsoleOutput, coord);
-=======
-void gotoxy(int posx, int posy) {
-  HANDLE hConsoleOutput;
-  COORD coord;
-  hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-  coord.X = posx;
-  coord.Y = posy;
-  SetConsoleCursorPosition(hConsoleOutput, coord);
->>>>>>> origin/main
 }
 
 void SetColor(int color) {

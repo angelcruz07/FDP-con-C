@@ -1,3 +1,11 @@
+/* 
+Presentación el bucle Do While
+
+Realice un algoritmo que muestre la tabla de 
+multiplicar de 1 al 10 por el número ingresado
+del usuario.
+*/
+
 #include <iostream>
 using namespace std;
 

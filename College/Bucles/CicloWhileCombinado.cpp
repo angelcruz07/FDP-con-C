@@ -1,3 +1,11 @@
+/*
+Bucle do while y while combinado
+
+Presentación de  ambos bucles para
+entender la diferencia entre ellos.
+
+*/
+
 #include <iostream>
 using namespace std;
 

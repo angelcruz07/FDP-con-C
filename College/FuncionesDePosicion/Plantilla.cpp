@@ -1,3 +1,9 @@
+/*
+Las siguientes funciones presentadas estan relacionadas
+con la posicion de los elementos en la pantalla de la consola
+en el sistema operativo Windows.
+*/
+
 #include<iostream>
 #include<windows.h>
 using namespace std;
@@ -12,8 +18,6 @@ void gotoxy(int posx, int posy)
  SetConsoleCursorPosition (hConsoleOutput, coord);
 }
 
-
-
 void SetColor(int color)
 {
     WORD wColor;
@@ -24,11 +28,7 @@ void SetColor(int color)
          wColor = (csbi.wAttributes & 0xF0) + (color & 0x0F);
          SetConsoleTextAttribute(hStdOut, wColor);
       }
-      return;
 }
-    
-
-
 
 int main()
 {

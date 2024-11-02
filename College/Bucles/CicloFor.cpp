@@ -1,3 +1,12 @@
+/* 
+Presentación del bucle for 
+
+Realice un algoritmo que calcule la 
+tabla de multiplicar de un número
+ingresado por el usuario utilizando
+for 
+*/
+
 #include <iostream>
 using namespace std;
 

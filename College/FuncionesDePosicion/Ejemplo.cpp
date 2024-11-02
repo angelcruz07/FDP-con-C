@@ -1,3 +1,9 @@
+/*
+Este es un ejemplo de como usar la funciones 
+de poscion definidas y la funcion de cambiar 
+color de los textos
+*/
+
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
@@ -14,8 +20,6 @@ void gotoxy(int posX, int posy)
  SetConsoleCursorPosition (hConsoleOutput, coord);
 }
 
-
-
 void SetColor(int color)
 {
     WORD wColor;
@@ -28,23 +32,22 @@ void SetColor(int color)
       }
 }
     
-
-
-
 int main()
 {
   gotoxy(34, 13);
   SetColor(10);
   cout<<"Programacion \n";
+
   gotoxy(50,24);
   cout<<"PRESIONE UNA TECLA PARA CONTINUAR";
   getch();
+
   system("pause");
   system("cls");
+
   SetColor(5);
   cout<<"ESTAMOS EN OTRA PANTALLA";
   gotoxy(50, 24);
   
-
 	return 0;
 }

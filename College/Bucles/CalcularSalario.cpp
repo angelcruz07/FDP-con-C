@@ -1,7 +1,11 @@
 /*
- * Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10%
- * anual durante 6 años. ¿Cual es su salario al cabo de 6 años?
- * ¿Que salario ha recibido en cada uno de los 6 años?
+  Realice el siguiente programa:
+
+  Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10%
+  anual durante 6 años. ¿Cual es su salario al cabo de 6 años?
+  ¿Que salario ha recibido en cada uno de los 6 años?
+
+  Uso del bucle While
  */
 
 #include <iostream>
