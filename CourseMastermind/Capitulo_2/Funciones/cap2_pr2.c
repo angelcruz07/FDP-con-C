@@ -1,6 +1,5 @@
-// Created by Angel on 11/3/2024.
-
 /*
+ * Created by Angel on 11/3/2024.
  * Una función es el equivalente
  * a una subrutina o procedimiento
  * en otros lenguajes.  Con la definicion
@@ -12,18 +11,28 @@
  */
 
 #include <stdio.h>
-#include <math.h>
 
-// Estos son nuestros argumentos
-int power(int base, int n) {
-  printf("d% Llego a la función power \n ");
- return 0;
-}
+// Prototipo
+int power(int base, int n);
+
 
 
 int main() {
- int i;
+ int i, result;
 
- //Parametró
- power(2, 5);
+ for(i = 0; i<10; i++)
+   printf("%d %d %d\n",i, power(2, i), power(-3, i));
 }
+
+// Estos son nuestros argumentos
+int power(int base, int n) {
+    int i,result;
+
+    result=1;
+
+    for(i = 0; i < n; i++)
+        result=result*base;
+
+    return result;
+}
+
