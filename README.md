@@ -25,3 +25,7 @@ sudo pacman -S base-devel
 ```
 
 ### Windows
+
+#### Compilador
+
+https://sourceforge.net/projects/mingw/
