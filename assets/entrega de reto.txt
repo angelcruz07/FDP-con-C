@@ -1,0 +1,6 @@
+Agrego el link al repositorio el archivo que corresponde al reto
+cabe mencionar que esta echo para funcionar en sistemas operativos linux
+
+Saludos!!
+
+https://github.com/angelcruz07/FDP-con-C/blob/main/CourseMastermind/Capitulo_1/RetoGanaAlaMaquina.c

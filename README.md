@@ -28,6 +28,9 @@ sudo pacman -S base-devel
 
 ### Windows
 
+#### Compilador
+
+https://sourceforge.net/projects/mingw/
 Cabe mencionar que existen diferencias de código en cuanto a
 C/C++ en Linux y Windows, por lo que es importante tener en cuenta
 las diferencias.
