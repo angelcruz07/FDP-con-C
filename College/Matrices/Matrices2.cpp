@@ -10,7 +10,7 @@ int matrix[100][100];
 int col = 0,  ren = 0;
 
 void readMatrix() {
-    cout<<"Ingresa cuantas columans quieres en la matriz \n";
+    cout<<"Ingresa cuantas colums quieres en la matriz \n";
     cin >> col;
 
     cout << "Ingresa cuants renglones quieres en la matriz \n";
