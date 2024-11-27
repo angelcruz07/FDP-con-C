@@ -75,8 +75,8 @@ void findNumbers(int matrix[100][100]) {
             }
         }
     }
-    cout<<"Cuantos numeros mayores a 10 y menores a 20: "<< c1++ <<endl;
-    cout<<"Cuantos numeros mayores a 20 y menores a 50: "<<c2++ <<endl;
+    cout<<"Cuantos numeros mayores a 10 y menores a 20: "<< c1 <<endl;
+    cout<<"Cuantos numeros mayores a 20 y menores a 50: "<< c2 <<endl;
 }
 
 int main() {
