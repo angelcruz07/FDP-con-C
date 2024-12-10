@@ -4,7 +4,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 add_executable(Ejercicio1 /College/Serie de ejercicios/Ejercicio1.cpp
-        "College/Serie de ejercicios/Ejercicio15.cpp")
+        "College/Serie de ejercicios/Ejercicio15.cpp"
+        CourseMastermind/Capitulo_2/Funciones/funcion_power.c
+        CourseMastermind/Capitulo_2/Reto/CifradoCesar.c
+        CourseMastermind/Capitulo_3/Busqueda.c
+)
 add_executable(Ejercicio2 /College/Serie de ejercicios/Ejercicio2.cpp)
 add_executable(Ejercicio3 /College/Serie de ejercicios/Ejercicio3.cpp)
 add_executable(Ejercicio4 /College/Serie de ejercicios/Ejercicio4.cpp)
