@@ -6,7 +6,7 @@
 
 char pattern[] = "es";
 
-int mygetline(char line[], int lim){
+int myGetLine(char line[], int lim){
   int c, i;
 
   i = 0;
@@ -20,7 +20,7 @@ int mygetline(char line[], int lim){
   return i;
 }
 
-int strrindex(char source[], char search[]){
+int strinIndex(char source[], char search[]){
   int i, j, k;
 
   for ( i = 0; source[i] != '\0'; i++) {
@@ -35,8 +35,8 @@ int main(){
   char line[MAXLINE];
   int found = 0;
 
-  while(mygetline(line, MAXLINE) > 0){
-    if(strrindex(line, pattern) >= 0){
+  while(myGetLine(line, MAXLINE) > 0){
+    if(strinIndex(line, pattern) >= 0){
       printf("%s", line);
       found++;
       }
