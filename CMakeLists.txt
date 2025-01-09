@@ -8,6 +8,9 @@ add_executable(Ejercicio1 /College/Serie de ejercicios/Ejercicio1.cpp
         CourseMastermind/Capitulo_2/Funciones/funcion_power.c
         CourseMastermind/Capitulo_2/Reto/CifradoCesar.c
         CourseMastermind/Capitulo_3/Busqueda.c
+        CourseMastermind/Capitulo_3/Ordenacion.c
+        CourseMastermind/Capitulo_3/Reto.c
+        CourseMastermind/Capitulo_3/EncuentraPatron.c
 )
 add_executable(Ejercicio2 /College/Serie de ejercicios/Ejercicio2.cpp)
 add_executable(Ejercicio3 /College/Serie de ejercicios/Ejercicio3.cpp)
